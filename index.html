@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A.co | Automotive World</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000000e4;
+      color: #fff;
+      font-family: 'Segoe UI', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    .menu {
+      background-color: #1c1c1c;
+      padding: 1rem;
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+
+    .menu a {
+      color: #fff;
+      text-decoration: none;
+      padding: 0.5rem 1rem;
+      border-radius: 8px;
+      background-color: #ff4e50;
+      transition: background-color 0.3s ease;
+    }
+
+    .menu a:hover {
+      background-color: #e03e3e;
+    }
+
+    h1 {
+      margin: 30px 0 10px;
+      font-size: 2rem;
+      text-align: center;
+    }
+
+    .img {
+      display: block;
+      margin: 0 auto 20px;
+      width: 300px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    }
+
+    .section {
+      max-width: 900px;
+      margin: 2rem auto;
+      background-color: #1c1c1c;
+      padding: 2rem;
+      border-radius: 16px;
+      box-shadow: 0 0 20px rgba(255, 0, 0, 0.3);
+    }
+
+    .section h2 {
+      color: #f9d423;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #f9d423;
+      padding-bottom: 0.5rem;
+    }
+
+    .section p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ddd;
+    }
+
+    .brand-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1rem;
+    }
+
+    .brand-table th, .brand-table td {
+      border: 1px solid #444;
+      padding: 0.8rem;
+      text-align: left;
+    }
+
+    .brand-table th {
+      background-color: #333;
+      color: #f9d423;
+    }
+
+    .brand-table td {
+      background-color: #1c1c1c;
+    }
+
+    .nav-links {
+      text-align: center;
+      margin: 2rem 0;
+    }
+
+    .nav-links a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.6rem 1.2rem;
+      background-color: #ff4e50;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .nav-links a:hover {
+      background-color: #e03e3e;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🔥 منوی دایوی -->
+  <div class="menu">
+    <a href="#home">Home</a>
+    <a href="#uk">UK Brands</a>
+    <a href="#germany">German Brands</a>
+    <a href="#usa">US Brands</a>
+    <a href="form.html" target="_blank">Join Us</a>
+    <a href="tamasbama.html" target="_blank">Contact</a>
+  </div>
+
+  <h1 id="home"><mark>Welcome to A.co</mark></h1>
+  <img src="Copilot_20250816_202335.png" alt="A photo" class="img" />
+
+  <div class="section">
+    <h2>Basic Car Knowledge</h2>
+    <p>
+      Every car is a combination of powerful systems working together. The <strong>engine</strong> converts fuel into motion. The <strong>transmission</strong> controls speed and torque. The <strong>battery</strong> powers electronics, and the <strong>radiator</strong> keeps the engine cool. Understanding these helps you drive smarter and maintain your car better.
+    </p>
+  </div>
+
+  <div class="section" id="uk">
+    <h2>🇬🇧 British Car Manufacturers</h2>
+    <p>British brands are known for luxury, elegance, and motorsport heritage. From handcrafted Bentleys to high-tech McLarens, the UK blends tradition with innovation.</p>
+    <table class="brand-table">
+      <tr><th>Brand</th><th>Specialty</th><th>Owner</th></tr>
+      <tr><td>Rolls-Royce</td><td>Ultra-luxury sedans</td><td>BMW (Germany)</td></tr>
+      <tr><td>Bentley</td><td>Handcrafted grand tourers</td><td>Volkswagen (Germany)</td></tr>
+      <tr><td>Jaguar</td><td>Sporty luxury cars</td><td>Tata Motors (India)</td></tr>
+      <tr><td>Land Rover</td><td>Premium off-road SUVs</td><td>Tata Motors (India)</td></tr>
+      <tr><td>McLaren</td><td>High-performance supercars</td><td>Independent</td></tr>
+      <tr><td>Aston Martin</td><td>Iconic British sports cars</td><td>Private investors</td></tr>
+      <tr><td>Mini</td><td>Compact urban cars</td><td>BMW</td></tr>
+      <tr><td>Lotus</td><td>Lightweight track cars</td><td>Geely (China)</td></tr>
+      <tr><td>Morgan</td><td>Classic wood-framed cars</td><td>Investindustrial (Italy)</td></tr>
+    </table>
+  </div>
+
+  <div class="section" id="germany">
+    <h2>🇩🇪 German Car Manufacturers</h2>
+    <p>Germany is the engineering powerhouse of the automotive world. Precision, performance, and innovation define its legendary brands.</p>
+    <table class="brand-table">
+      <tr><th>Brand</th><th>Specialty</th><th>Owner</th></tr>
+      <tr><td>Mercedes-Benz</td><td>Luxury & tech innovation</td><td>Mercedes-Benz Group</td></tr>
+      <tr><td>BMW</td><td>Dynamic driving experience</td><td>BMW Group</td></tr>
+      <tr><td>Audi</td><td>Modern design & smart systems</td><td>Volkswagen Group</td></tr>
+      <tr><td>Volkswagen</td><td>Reliable family cars</td><td>Volkswagen Group</td></tr>
+      <tr><td>Porsche</td><td>High-performance sports cars</td><td>Volkswagen Group</td></tr>
+      <tr><td>Opel</td><td>Affordable urban vehicles</td><td>Stellantis</td></tr>
+      <tr><td>Maybach</td><td>Ultra-luxury Mercedes division</td><td>Mercedes-Benz Group</td></tr>
+    </table>
+  </div>
+
+  <div class="section" id="usa">
+    <h2>🇺🇸 American Car Manufacturers</h2>
+    <p>
+      America is home to muscle cars, powerful trucks, and electric pioneers. From Ford’s legacy to Tesla’s innovation, the U.S. automotive industry blends tradition with cutting-edge technology. The "Big Three"—Ford, General Motors, and Stellantis—dominate the market, while new players like Tesla and Rivian are reshaping the future.
+    </p>
+    <table class="brand-table">
+      <tr><th>Brand</th><th>Specialty</th><th>Owner</th></tr>
+      <tr><td>Ford</td><td>F-150, Mustang, Bronco</td><td>Ford Motor Company</td></tr>
+      <tr><td>Chevrolet</td><td>Camaro, Corvette, Silverado</td><td>General Motors</td></tr>
+      <tr><td>Cadillac</td><td>Luxury sedans & EVs</td><td>
+      </body>
+      </html>
